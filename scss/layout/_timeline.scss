@@ -1,4 +1,17 @@
 // Styling for the timeline section
+section#about{
+  text-align: center;
+  color: white;
+  background: linear-gradient(to bottom, #{fade-out($primary, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%), url('../img/about/about-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.timeline-container {
+  padding-top: 70px;
+  background-color: rgba(0,0,0,.5);
+}
 .timeline {
   position: relative;
   padding: 0;
@@ -88,6 +101,7 @@
       margin-top: 0;
       color: inherit;
       &.subheading {
+        color: $primary;
         text-transform: none;
       }
     }
@@ -95,6 +109,7 @@
   .timeline-body {
      > ul,
     > p {
+      color: $gray-200;
       margin-bottom: 0;
     }
   }
