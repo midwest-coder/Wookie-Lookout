@@ -102,7 +102,7 @@ function js() {
     .src([
       './js/*.js',
       '!./js/*.min.js',
-      '!./js/contact_me.js',
+      '!./js/head-shot-tshirt.js',
       '!./js/jqBootstrapValidation.js'
     ])
     .pipe(uglify())
