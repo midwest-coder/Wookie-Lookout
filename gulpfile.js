@@ -102,8 +102,7 @@ function js() {
     .src([
       './js/*.js',
       '!./js/*.min.js',
-      '!./js/head-shot-tshirt.js',
-      '!./js/jqBootstrapValidation.js'
+      '!./js/noMin/*.js'
     ])
     .pipe(uglify())
     .pipe(header(banner, {
@@ -119,7 +118,7 @@ function js() {
 // Watch files
 function watchFiles() {
   gulp.watch("./scss/**/*", css);
-  gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
+  gulp.watch(["./js/**/*", "!./js/**/*.min.js", "!./js/noMin/*" ], js);
   gulp.watch("./**/*.html", browserSyncReload);
 }
 

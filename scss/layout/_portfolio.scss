@@ -1,5 +1,5 @@
 // Styling for the portfolio section
-#portfolio {
+.products {
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -56,6 +56,11 @@
         margin: 0;
         @include serif-font;
       }
+      .product-wrap {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
   * {
@@ -63,7 +68,7 @@
   }
 }
 @media(min-width:767px) {
-  #portfolio {
+  .products {
     .portfolio-item {
       margin: 0 0 30px;
     }

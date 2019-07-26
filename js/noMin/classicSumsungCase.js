@@ -1,4 +1,4 @@
-    (function () {
+(function () {
       var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
       if (window.ShopifyBuy) {
         if (window.ShopifyBuy.UI) {
@@ -27,7 +27,7 @@
         ShopifyBuy.UI.onReady(client).then(function (ui) {
           ui.createComponent('product', {
             id: [3956481097816],
-            node: document.getElementById('product-component-99c6fa53e0e'),
+            node: document.getElementById('product-component-58b9de9c38f'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
   "product": {
@@ -45,6 +45,7 @@
     },
     "styles": {
       "product": {
+        "text-align": "right",
         "@media (min-width: 601px)": {
           "max-width": "100%",
           "margin-left": "0",
