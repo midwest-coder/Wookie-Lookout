@@ -9,9 +9,9 @@ header.masthead {
   background-size: cover;
   .intro-text {
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     img {
-      max-height: 200px;
+      max-height: 400px;
     }
     .intro-lead-in {
       font-size: 22px;
@@ -32,9 +32,9 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 20px;
+      padding-top: 50px;
       img {
-        max-height: 400px;
+        max-height: 500px;
       }
       .intro-lead-in {
         font-size: 40px;

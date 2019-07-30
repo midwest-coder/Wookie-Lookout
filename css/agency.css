@@ -186,11 +186,11 @@ header.masthead {
 
 header.masthead .intro-text {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 header.masthead .intro-text img {
-  max-height: 500px;
+  max-height: 400px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -211,11 +211,10 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding-top: 50px;
   }
   header.masthead .intro-text img {
-    max-height: 700px;
+    max-height: 500px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
