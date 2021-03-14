@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Kevin Stamps
+ * Copyright 2013-2021 Kevin Stamps
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
