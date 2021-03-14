@@ -176,8 +176,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(75%, rgba(0, 0, 0, 0.7)), to(#000)), url("../img/masthead-bg.jpg");
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../img/masthead-bg.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(75%, rgba(0, 0, 0, 0.7)), to(#000)), url("../img/masthead-bg-1.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../img/masthead-bg-1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
